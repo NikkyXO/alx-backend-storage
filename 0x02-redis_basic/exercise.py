@@ -34,7 +34,7 @@ def call_history(method: Callable):
     return wrapper_hx
 
 
-class Cache():
+class Cache:
     """Cache class"""
     def __init__(self):
         """Constructor"""
