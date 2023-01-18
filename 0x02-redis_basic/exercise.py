@@ -21,7 +21,7 @@ def count_calls(method: Callable) -> Callable:
 
 def call_history(method: Callable):
     """Store the history of inputs and outputs for a particular function"""
-    
+
     @wraps(method)
     def wrapper_hx(self, *args, **kwds):
         """Wrapper function"""
